@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*** GENERIC STYLES ***/
+.jumbotron h1{
+	color: #BDD5EA;
+	font-weight: 300;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+}
+.jumbotron .lead{
+	color: #fff
+}
+
+h2,h3{
+	color: #577399;
+}
+p,li{
+	font-weight: 300;
+}
+
+.no-bullets{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.container{
+	max-width: 1280px;
+	padding: 40px 180px;
+}
+
+
+/**** SECTION STYLES ****/
+#top{
+	position: relative;	
+	text-align: center;
+}
+
+#top .name{
+	position: absolute;
+    top: 50%;
+    margin-top: -90px;
+    width: 100%;
+}
+
+#top .glyphicon-chevron-down{
+	font-size: 40px;
+	color: #FE5F55;
+}
+
+#top .scroll-down{
+	position: absolute;
+	bottom: 50px;
+}
+
+.jumbotron{
+	background-color: #F7F7FF;
+	background-image: url('../images/pexels-photo-381949.jpeg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#top .overlay{
+    width: 100%;
+    height: auto;
+    background: #577399;
+    position: absolute;
+    top: 0px;
+    opacity: 0.3;
+}
+
+
+
+#profile{
+
+}
+
+
+#experience{
+	background: #F7F7FF;
+}
+
+#experience .row{
+	margin-bottom: 50px
+}
+
+
+
+
+#skills{
+
+}
+#skills .no-bullets{
+	float: left;
+	width: 100%;
+}
+#skills .no-bullets > li {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#skills .no-bullets > li > span{
+	float: left;
+}
+#skills .no-bullets > li > span + span{
+	float: right;	
+}
+
+#skills .no-bullets > li > span + span > span{
+	color: #FE5F55;
+}
+
+
+#skills .no-bullets > li:hover > span{
+	color: #FE5F55;
+}
+
+#skills .no-bullets > li:hover > span + span > span{
+	margin-left: 2px;
+}
+
+
+#projects{
+	background: #F7F7FF;
+}
+
+
+
+
+#contact{
+	background: #495867;
+}
+#contact * {
+	color:#ffffff;
+}
+
+#social{
+	margin-bottom: 0px;
+	clear: both;
+	margin-top: 10px
+}
+
+#social > li{
+	list-style: none;
+	display: inline-block;
+}
+
+#social .socialIcon{
+	display: block;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+
+#social .github{
+	background-image: url('../images/github-icon.png');
+}
+#social .linkedin{
+	background-image: url('../images/linked-in-icon.png');
+}
+#social .twitter{
+	background-image: url('../images/twitter-icon.png');
+}
+
+
+#contact .phone{
+	font-size: 18px;
+}
+
