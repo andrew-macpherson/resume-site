@@ -51,6 +51,7 @@ p,li{
 #top .glyphicon-chevron-down{
 	font-size: 40px;
 	color: #FE5F55;
+    margin-left: -18px;
 }
 
 #top .scroll-down{
